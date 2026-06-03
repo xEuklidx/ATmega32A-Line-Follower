@@ -2,21 +2,36 @@
 Bare-metal C firmware for an autonomous line-following robot using the ATmega32A microcontroller. Implements a modular, layered architecture with zero external libraries and direct register manipulation.
 
 # COMPONENTS 
+
 -> 5 TCT IR sensors array module
+
 -> L298N Motor Driver
+
 -> 2 18650 Li-Ion Batteries
+
 -> 5A Buck Converter (7.4v to 5v)
+
 -> 16Mhz Crystal Oscillator with accompanying 2x 22pF caps
+
 -> HC-SR02 sensor holder (to secure the IR array)
+
 -> Jumpers & Breadboard
+
 -> 2 Wheeled Chassis with caster wheel
+
 -> Cap on 5v rail to protect ATmega32A from voltage spikes
+
 -> A slice of PCB with terminal blocks to act as the 7.4v rail
 
+
 # CODE FILES 
+
 TOP (LOGIC ALGO) LAYER:      main.c
+
 MIDDLE (COMPONENT) LAYER:   l298n_driver.h/.c  &  irarr_driver.h/.c
+
 LOWER (BARE-METAL) LAYER:   timer1_driver.h/.c &  gpio_driver.h/.c
+
 
 # LOGIC 
 
