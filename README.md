@@ -32,6 +32,9 @@ MIDDLE (COMPONENT) LAYER:   l298n_driver.h/.c  &  irarr_driver.h/.c
 
 LOWER (BARE-METAL) LAYER:   timer1_driver.h/.c &  gpio_driver.h/.c
 
+UTILITY / CONFIG LAYER:     portable_dts.h
+
+
 
 # LOGIC 
 
