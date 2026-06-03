@@ -41,7 +41,9 @@ When the robot completely loses the line (yielding a distinct error code of `100
 
 
 *(Note: The driver design pre-allocates sensory weight tracking to allow an inline drop-in migration to a fully tuned Proportional-Integral-Derivative (PID) control loop in future iterations).*
+
 Done By: Andrew H. Ghobrial <Heretic>
+
 MY LINKEDIN: www.linkedin.com/in/andrew-ghobrial-769974349
 
 
